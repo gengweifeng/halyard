@@ -1,3 +1,4 @@
 # halyard
 由于国内无法访问gcr.io，故尝试使用github+dockerhub的方式获取
 使用halyard工具安装spinnaker的时候，halyard会联网获取spinnaker版本信息以及获取相关镜像，由于网络限制也无法访问，弃用此方式
+对docker配置国内镜像库之后好像可以直接pull gcr.io镜像，但未实际尝试，使用了spinnaker github上的docker-compose方式安装spinnaker，手动拉取quay.io中相关镜像
